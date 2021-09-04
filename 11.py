@@ -6,7 +6,7 @@ def print_two(*args):
     arg1, arg2 = args
     print(f"arg1: {arg1}, arg2 : {arg2}")
 
-    # *args is pointless we can do this way
+    # ok, that *args is pointless we can just do 
 
 def print_two_again(arg1, arg2):
     print(f"arg1: {arg1}, arg2 : {arg2} ")
@@ -20,7 +20,7 @@ def print_one(arg1):
     # This print nothing
 
 def print_none():
-    print("I got nothi'. ")
+    print("I got nothin'. ")
 
 print_two("Zed", "Shaw")
 print_two_again("Zed", "Shaw")

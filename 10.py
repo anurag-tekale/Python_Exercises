@@ -1,7 +1,7 @@
 # Files
 
 from sys import argv
-from os.path import exists
+from os.path import exists # exists = This returns True if a file exists....and returns False if not
 
 script, from_file, to_file = argv
 
