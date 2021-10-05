@@ -14,7 +14,9 @@ char** split_string(char*);
 // Complete the birthdayCakeCandles function below.
 int birthdayCakeCandles(int ar_count, int* ar) {
 
+
  int max=1,count=0;
+ int max=0,count=0;
 
     for(int i=0;i<ar_count;i++)
     {
@@ -27,8 +29,9 @@ int birthdayCakeCandles(int ar_count, int* ar) {
         if(ar[i]==max)
           count++;
     }
-
     return count;
+    return 0;
+
 
 }
 
