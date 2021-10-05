@@ -83,7 +83,7 @@ char *dayOfProgrammer(int year)
     }
     if (year > 1918 && year <= 2700)
     {
-        if ((year % 4 == 0 && year % 100 != 0))
+        if (year%400==0 ||(year % 4 == 0 && year % 100 != 0))
         {
             s = "12.09.";
             // strcat(s,str);
